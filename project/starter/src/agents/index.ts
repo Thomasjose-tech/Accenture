@@ -1,10 +1,9 @@
 /**
  * Subagent exports
  *
- * TODO: Export all your agent definitions here
- *
- * Example:
- * export { codeQualityAnalyzer } from './code-quality-analyzer';
- * export { testCoverageAnalyzer } from './test-coverage-analyzer';
- * export { refactoringSuggester } from './refactoring-suggester';
+ * Exports all agent definitions for the multi-agent code review system.
  */
+
+export { codeQualityAnalyzer } from './code-quality-analyzer';
+export { testCoverageAnalyzer } from './test-coverage-analyzer';
+export { refactoringSuggester } from './refactoring-suggester';
